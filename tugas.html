@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrasi</title>
+    <link rel="stylrsheet" href="style.css">
+    <style>
+        .text-center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <form method="post" action="data.php">
+    <hr>
+    <nav>
+        <div class="text-center">
+            <ul>
+                <h3>Home</tr>
+                <tr>|</tr>
+                <tr>Generate link</tr>
+                <tr>|</tr>
+                <tr>Transaction History</tr>
+                <tr>|</tr>
+                <tr>Policy</tr>
+                <tr>|</tr>
+                <tr>Logout</tr>
+            </ul>
+        </table>   
+        </div>
+    </nav><td rowspan="5"><img src="c:\Users\pauda\Downloads\pexels.barang.jpg" height="200" width="170"></td> 
+  <table>
+    <div class="text-center"> 
+  <label for="produk">Nama Barang :</label>  
+  <input type="text>" name="produk" id="produk" required>
+  <br>
+  <br>
+  <label for="textarea">deskripsi  :</label>
+  <textarea name="" id="" cols="10" rows="4">Nama :
+Model :        Kondisi :
+  </textarea>
+  <br>
+  <br>
+  <label for="harga">Harga</label>
+  <input type="number" name="harga" id="Harga" value="20000">
+ <br>
+  <br>
+  <label for="Account Number">Nomor Akun :</label>
+  <input type="number>" name="Account Number" id="Nomor Akun" required>
+  <br>
+  <br>
+  <label for="Bank">BANK :</label>
+  <input type="text>" list="edulevel"required>
+   <datalist id="edulevel">
+    <option value="BRI"></option>
+    <option value="BNI"></option>
+    <option value="BCA"></option>
+    <option value="Mandiri"></option>
+    <option value="Syariah"></option>
+   </datalist>
+   <br>
+   <br>
+   <label for="Account Holder">Pemilik Akkun :</label>
+   <input type="text>" name="Account Holder" id="Pemilik Akkun" required>
+   <br>
+   <br>
+   <label for="Transaction">Transaksi</label>
+   <input type="number" list="Nomor" required>
+   <datalist id="Nomor">
+    <option value="1"></option>
+    <option value="2"></option>
+    <option value="3"></option>
+    <option value="4"></option>
+    <option value="5"></option>
+    <option value="6"></option>
+    <option value="7"></option>
+    <option value="8"></option>
+    <option value="+10"></option>
+   </datalist>
+   <br><p>#jika ada kerusaakan pada produk kami harap konfirmasi</p>
+   <input type="checkbox" name="bukti[]" id="bukti1" value="kirim ke NO.tlp"/>
+   <label for="bukti1">kirim ke NO.tlp</label><br>
+   <input type="checkbox" name="bukti[]" id="bukti2" value="kirim ke Email"/>
+   <label for="bukti1">kirim ke Email</label><br>
+   <br>
+   <label for="method">kirim ke NO.tlp</label>
+   <input type="number>" name="method" id="kirim ke NO.tlp" required><br>
+   <br>
+   <label for="method">kirim ke Email</label>
+   <input type="text" name="method" id="kirim ke Email" required><br>
+   <br>
+   <br>
+   <input type="submit" value="Ayo gass Pesan">
+    </div>
+  </table>
+  
+</form> 
+</body>
+</html>
